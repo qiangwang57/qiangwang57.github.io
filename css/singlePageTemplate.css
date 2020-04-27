@@ -21,7 +21,7 @@ body {
 /* Navigation */
 header {
 	width: 100%;
-	height: 5%;
+	height: 10%;
 	background-color: #52bad5;
 	border-bottom: 1px solid #2C9AB7;
 }
@@ -29,7 +29,7 @@ header {
 	color: #fff;
 	font-weight: bold;
 	text-align: undefined;
-	width: 10%;
+	width: 30%;
 	float: center;
 	margin-top: 15px;
 	margin-left: 25px;
@@ -37,7 +37,7 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
+	width: 60%;
 	text-align: right;
 	margin-right: 25px;
 }
@@ -48,7 +48,7 @@ header nav ul {
 nav ul li {
 	float: left;
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 15px;
 	text-align: left;
 	margin-right: 25px;
 	letter-spacing: 2px;
@@ -154,11 +154,28 @@ ul li:hover a {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.banner_header {
+	background-color: #2D9AB7;
+	background-image: url(../images/background.jpg);
+	height: 200px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .parallax {
 	color: #FFFFFF;
 	text-align: left;
 	padding-right: 100px;
 	padding-top: 0px;
+	padding-left: 20px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_header {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 90px;
 	padding-left: 20px;
 	letter-spacing: 2px;
 	margin-top: 0px;
